@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <title>Desafio 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center-align">Pesquisa de usuários</h1>
+      <form action="" class="col s12">
+        <div class="row">
+          <input
+            placeholder="Digite o nome do usuário que deseja pesquisar"
+            id="inputSearch"
+            class="input-field col s10"
+          />
+          <div class="col s0.5"></div>
+          <button
+            type="submit"
+            class="input-field col s1.5 btn waves-effect waves-light"
+          >
+            Buscar
+          </button>
+        </div>
+      </form>
+      <div id="container-list">
+        <div id="container-users" class="input-field col s6"></div>
+        <div id="container-users-info" class="input-field col s5"></div>
+      </div>
+    </div>
+
+    <script src="./js/people.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

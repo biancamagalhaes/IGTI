@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+    <title>Pratica 1</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="./img/logo.png" id="logo"/>
+    </div>
+    <div class="title">
+      <h1>Desafio Modulo 1</h1>
+    </div>
+    <div class="container">
+      <table>
+          <tr>
+            <td>
+              <h2>(R) Vermelho:</h2>
+            </td>
+            <td>
+              <input type="range" class="range" id="range-r" max="255" value="0" />
+            </td>
+            <td>
+              <input id="text-r" class="text" disabled value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>(G) Verde:</h2>
+            </td>
+            <td>
+              <input type="range" id="range-g" class="range" max="255" value="0" />
+            </td>
+            <td>
+              <input type="text" class="text" id="text-g" disabled value="0" />
+            </td>
+          </tr>
+          <tr>
+            <td> 
+              <h2>(B) Azul:</h2>
+            <td>
+              <input type="range" id="range-b" max="255"  class="range" value="0" />
+            </td>
+            <td>
+              <input type="text" id="text-b" class="text" disabled value="0" />
+            </td>
+          </tr>
+        </td>
+      </table>
+      <div id="square"></div>
+    </div>
+    
+    <script src="./js/index.js"></script>
+  </body>
+</html>

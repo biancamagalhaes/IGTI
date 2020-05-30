@@ -1,0 +1,42 @@
+h1 {
+  font-family: monospace;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  margin-left: 5%;
+}
+
+.title {
+  height: 10vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  background-color: rgba(55, 55, 55, 1);
+}
+
+h2 {
+  margin: 10px;
+  font-family: monospace;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #00526b;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+}
+
+.header {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+input {
+  width: 180px;
+  height: 20px;
+}
